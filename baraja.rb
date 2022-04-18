@@ -18,7 +18,7 @@ class Baraja
     end
     
     def sacar
-        carta = @cartas.pop
+        carta = @cartas.pop # @cartas.shift
         puts "#{carta.numero}-#{carta.pinta}"
     end
 
